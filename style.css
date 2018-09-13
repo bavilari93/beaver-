@@ -139,20 +139,21 @@ div.inner{
   border-radius: 10%;
   box-shadow: -1px 3px 0 #433;
 }
-/*
- .bridge{
- 	background-color: #433;
- 	height: .9rem;
- 	width: .3rem;
- 	top: 1.4rem;
- 	left: 1.4rem;
- }
- .brigde::before{
-	content: '';
-	z-index: 2; 
-	width: 3.3rem;
-	height: 2.3rem;
-	background: none;
-	border-radius: 10%; 
-	box-shadow: -1px 3px 0 #433;
- }*/
+.teeth{
+	z-index: 1rem;
+	border-radius: 0.42rem;
+	background-color: #FFF; 
+	width: 2.5rem;
+	height: 2rem;
+	top: -4.5rem;
+	left: -5.3rem;
+}
+.teeth:before {
+  position: absolute;
+  left: 1.13rem;
+  content: "";
+  width: 2px;
+  height: 26px;
+  background: #666;
+  opacity: 0.2;
+}
