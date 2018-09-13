@@ -1,0 +1,45 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #F6F4D2;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.container>* {
+    /*position: absolute;*/
+    align-self: center;
+}
+
+div.head {
+	background-color: #947267; 
+	border-radius: 100%; 
+	height:11.6rem;
+	width: 15rem;
+}
+
+div.hair{
+	position: absolute;
+border-radius: 80% 0 100% 100%;
+transform: rotate(-20deg);
+background-color: #947267;
+width: 1.6rem;
+height: 1.6rem;
+left: 10rem;
+top: 13.5rem;
+}
+div.hair.right{
+	transform: translateX(1.5rem);
+}
+.face.eye{
+
+}
