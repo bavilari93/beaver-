@@ -16,7 +16,7 @@ body {
 }
 
 .container>* {
-    /*position: absolute;*/
+    position: absolute;
     align-self: center;
 }
 
@@ -27,35 +27,32 @@ div.head {
 	width: 15rem;
 	z-index: 1;
 }
-.head>*{
-	position: absolute;
-}
-
 div.hair{
+position: absolute;
 border-radius: 80% 0 100% 100%;
 transform: rotate(-20deg);
 background-color: #947267;
 width: 1.6rem;
 height: 1.6rem;
-left: 10rem;
-top: 13.5rem;
+left: 6rem;
+top: -.4rem;
 }
 div.hair.right{
 	transform: translateX(1.5rem);
 }
-div.ear{
-	position: absolute;
+.ear{
+	position: relative;
 	background:#947267;
 	border-radius: 80% 200% 50% 200%;
 	height:4.16rem;
 	width: 4.16rem;
 	transform: rotate(20deg);
-	top:14rem;
-	left: 5rem;
+	top:-4rem;
+	left: -4rem;
 }
 .ear.right{
 	transform: rotate(90deg);
-	left: 15rem;
+	left: 3rem;
 }
 div.inner{
 	position: relative;
