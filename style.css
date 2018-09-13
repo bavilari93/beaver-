@@ -67,3 +67,59 @@ div.inner{
 	left: .5rem;
 	transform: rotate(-60deg);
 }
+.face{
+	display: flex;
+}
+.face>*{
+	position: absolute;
+}
+.eye{
+	top:4rem; 
+	left: 4rem;
+	border-radius: 100%; 
+	background-color: white; 
+	height: 3rem;
+	width: 2rem;
+}
+.eye.right{
+	transform: translateX(5rem);
+}
+.iris{
+	position: absolute;
+	border-radius: 100%;
+	height: 2rem;
+	width: 1.11rem;
+	background-color: black;
+	top: .45rem;
+	left: .35rem;
+}
+.mouth{
+	top:6.7rem;
+	left: 5.7rem;
+}
+.mouth>*{ 
+	position: absolute;
+ }
+ .nose{
+ 	z-index: 3; 
+ 	width:1.67rem; 
+ 	height: 1.67rem;
+ 	background-color: #433;
+ 	border-radius: 180% 100% 20% 100%;
+ 	transform: rotate(49deg);
+ 	top: -.5rem;
+ 	left: .78rem;
+ }
+ .snout{
+ 	border-radius: 100%; 
+ 	width: 3.3rem;
+ 	height: 2.5rem;
+ 	background-color: #BA9588;
+ }
+ .bridge{
+ 	background-color: #433;
+ 	height: .9rem;
+ 	width: .3rem;
+ 	top: 1.4rem;
+ 	left: 1.4rem;
+ }
